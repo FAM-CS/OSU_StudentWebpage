@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<!-- Metadata of Page -->
+<head>
+    <meta charset="utf-8" />
+    <title>Fatima Moussaoui | Blog</title>
+    <link href="./blog.css" rel="stylesheet"/>
+</head>
+
+<!-- Content -->
+<body>
+    <div id="blog-header-div">
+        <h1>Code Blog</h1>
+        <p>CS 290 Spring 2022</p>
+    </div>
+    
+    
+    <div class="link-banner-div">
+        <ul class="navlist">
+            <li class="navitem navlink active"><a href="./index.html">Home</a></li>
+            <!-- <li class="navitem navbar-search">
+              <input type="text" id="navbar-search-input" placeholder="Search...">
+              <button type="button" id="navbar-search-button"><i class="fas fa-search"></i></button>
+            </li> -->
+        </ul>
+    </div>
+
+    <div class="blog-entry">
+        <h2>Assignment 1: 4/11/2022</h2>
+
+        <ul>
+            <li> What challenges or troubles did you have completing this assignment. How did you work through them?
+                <p>
+                    I did not really experience any particular trouble completing this assignment. I generally had more
+                    questions around how to do something like adding a tab or how to add an image to the same line 
+                    (e.g. email icon). I worked through them by experimenting with code and searching on the internet 
+                    and my lecture notes. For example, while experimenting with color VS Code had a prompt for rgb()
+                    which I then used to get the exact color I wanted.
+                </p>
+            </li>
+
+            <li> What did you learn from this assignment? What did you already know?
+                <p>
+                    Pretty much everything from this assignment was new to me so I learned how to use HTML, structure
+                    an html file, how to use some CSS styles, and picked up some practices like DOCTYPE and css file 
+                    separation. I found it fun to experiment and search how to make something look the way I want. 
+                    I also challenged myself to make the header of my homepage resemble my resume which I think turned
+                    out well except for the exact layout.
+                </p>
+            </li>
+
+            <li> What resources (e.g. specific web articles, the class Campuswire forum, the TAs) were most helpful in
+                 completing this assignment? How did you use these resources?
+                <p>
+                    The most helpful resources for me was the lectures as I learned the basics from them, mainly using
+                    them by referencing the notes I took. I also downloaded the Live Server extension reccomended by a
+                    student in the Campuswire forum which was nice for auto-updating the page to reflect saved changes 
+                    to files. I also got some tips from a classmate that has prior HTML/CSS experience who reccomended 
+                    the inspector tool.
+                </p>
+
+                <p> Web articles referenced: <br/>
+                    https://www.w3schools.com/css/css3_fonts.asp <br/>
+                    https://www.w3schools.com/css/css_inline-block.asp
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="blog-entry">
+        <h2>Assignment 2: 4/25/2022</h2>
+
+        <ul>
+            <li> What was challenging about the assignment, and what specific kinds of problems did you have. How did you solve those problems?
+                <p>
+                    I found the margin and positioning to be challenging for this assignment as things were getting shifted
+                    or had weird spacing. I was able to solve this by use the inspector dev tool on my browser to investigate
+                    the margin and padding of objects which helped me understand how different properties worked together. <br/>
+                    Another problem I had was wanting to scale the add-twit button from the center without having to
+                    calculate the new position myself. After some searching I was able to find the scale() property
+                    which worked perfectly for my needs.
+                </p>
+            </li>
+
+            <li> What did you learn from the assignment? Were there any special insights you had? What did you find that you already knew?
+                <p>
+                    I learned the basics of positioning, flexboxes, and font-styling. I did not know much going into this
+                    assignment but after I found a lot of cool CSS animations so I may try them later for the blog/homepage.
+                </p>
+            </li>
+
+            <li> What resources (e.g. specific web articles, the class Campuswire forum, the TAs) were most helpful in
+                 completing this assignment? How did you use these resources?
+                <p>
+                    The most helpful resources for me was the lectures as I learned some of the tricks I ended up using 
+                    for this assignment such as the inline display for the list items in the navigation bar. I also
+                    really liked the frog flexbox which was nice for practice. A student also hinted about using border
+                    styling to get the underline effect for the active navigation page which led me to find border-bottom.
+                </p>
+            </li>
+
+            <li> What are one or two things you had to Google to complete the assignment?
+                <p>
+                    One thing I had to Google was how to make my button grow from  the center as I felt there had to be
+                    a better/quicker way to do it than having to calculate a new center position. This led me to find
+                    "transform: scale()" which worked well. Another thing I searched for was removing the margin from my
+                    nagivation and site title bar, I ended up realizing it was because of some default margins on the
+                    body element using the stackoverflow link and the inspector tool.
+                </p>
+
+                <p> Web articles referenced: <br/>
+                    https://localcoder.org/css-animation-grow-from-center-zoom-from-center-dot-to-full-container <br/>
+                    https://stackoverflow.com/questions/46391382/make-header-elements-use-the-whole-space <br/>
+                    https://blog.hubspot.com/website/remove-underline-from-links-css
+                </p>
+
+            </li>
+        </ul>
+    </div>
+
+    
+    <div class="blog-entry">
+        <h2>Assignment 3: 5/9/2022</h2>
+
+        <ul>
+            <li> What was challenging about the assignment, and what specific kinds of problems did you have. How did you solve those problems?
+                <p>
+                    I found differentiating between collections and actual objects somewhat challenging as I kept running
+                    into errors trying to append to elements by ClassName instead of ID. However, after reading the console
+                    errors from the browser dev tools and using console.log() it made more sense. Other times I was
+                    not sure what was contained in my text variable for search_twits() as it kept evaluating to false.
+                    I realized the issue after printing the text of the twit_array and it was in uppercase which made indexOf()
+                    not work initially.
+                </p>
+            </li>
+
+            <li> What did you learn from the assignment? Were there any special insights you had? What did you find that you already knew?
+                <p>
+                    I learned the basics of javascript, how to create event listeners, how to manipulate the DOM, and 
+                    add new content to the DOM. Some insights I had into this was that I first learned some Python in CS160-161
+                    so I was familiar with how a lot of the string and array operations worked. Fortunately, a lot
+                    of javascript syntax is similar to Python and C++ so it was not hard to pickup/use and the lectures were
+                    awesome for learning.
+                </p>
+            </li>
+
+            <li> What resources (e.g. specific web articles, the class Campuswire forum, the TAs) were most helpful in
+                 completing this assignment? How did you use these resources?
+                <p>
+                    The most helpful resources for me was the lectures, particularly the ones from 4/27, 5/2, and 5/4.
+                    I also searched for specific problems / things I wanted to do with JS whenever I had no clue what
+                    to do. I also reached out to my teammates (for the final project) and they had a lot of good tips
+                    for the assignment like having to index [0] after getting elements by class name. I also took some 
+                    of the example/demo code from class such as the string cleaning from the wordBoxes.js.
+                </p>
+            </li>
+
+            <li> What are one or two things you had to Google to complete the assignment?
+                <p>
+                    Two things I had to Google was how to do the search and how to clear an input field.
+                    I learned I could use the string method indexOf() for searching since it gives the starting index 
+                    for a substring that is in the current string. For clearing the input field, my issue was that
+                    I was getting the value from the element and then trying to set it to an empty string "" but I was
+                    not actually changing the value text element.
+                    <br/>
+                    <br/>
+                    // Does not work  <br/>
+                    text = element.value <br/>       
+                    text = ""  <br/>
+                    // Does work <br/>
+                    element.value = "" <br/>
+                    // This works too <br/>
+                    text = element
+                    text.value = ""
+                </p>
+
+                <p> Web articles referenced: <br/>
+                    https://www.w3schools.com/howto/howto_js_filter_lists.asp <br/>
+                    https://www.geeksforgeeks.org/html-clearing-the-input-field/ <br/>
+                    https://www.geeksforgeeks.org/how-to-check-if-an-element-is-a-child-of-a-parent-using-javascript/ <br/>
+                    https://www.javascripttutorial.net/dom/manipulating/remove-all-child-nodes/ <br/>
+                </p>
+
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>

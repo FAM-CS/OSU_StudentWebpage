@@ -1,0 +1,36 @@
+.tab { 
+    margin-left: 40px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Calibri Light';
+    font-size: 40px;
+}
+
+h2 {
+    font-family:  Calibri, sans-serif;
+}
+
+#home-header-div {
+    padding: 10px;
+    padding-left: 20px;
+    background-color: rgb(247, 247, 247);
+}
+
+.link-banner-div {
+    margin-top: 10px;
+    padding: 1px;
+    padding-left: 20px;
+    background-color: rgb(247, 247, 247);
+}
+
+#profile-pic {
+    width: 279.67px;
+    height: 400.33px;
+}
+
+.navbar {
+    margin: 20px;
+}
