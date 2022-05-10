@@ -1,14 +1,19 @@
 # OSU_StudentWebpage
-**The proccess**<br/>
+**Documenting the Learning Progress**<br/>
 
 Learning web dev and documenting progress by working on a webpage.
 
 Using HTML, CSS, and JS to create a homepage for OSU's student engineering webpages.
 
-## 1. Header
 
-<Insert something here>
+## HTML
 
-## 2. Header
+Goal: Structure HTML in ways that can be leveraged by JS and CSS
 
-More things here
+## CSS
+
+More to share later!
+
+## Javascript
+
+More to share later!
