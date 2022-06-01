@@ -13,8 +13,8 @@
         <h1>Code Blog</h1>
         <p>CS 290 Spring 2022</p>
     </div>
-    
-    
+
+
     <div class="link-banner-div">
         <ul class="navlist">
             <li class="navitem navlink active"><a href="./index.html">Home</a></li>
@@ -32,8 +32,8 @@
             <li> What challenges or troubles did you have completing this assignment. How did you work through them?
                 <p>
                     I did not really experience any particular trouble completing this assignment. I generally had more
-                    questions around how to do something like adding a tab or how to add an image to the same line 
-                    (e.g. email icon). I worked through them by experimenting with code and searching on the internet 
+                    questions around how to do something like adding a tab or how to add an image to the same line
+                    (e.g. email icon). I worked through them by experimenting with code and searching on the internet
                     and my lecture notes. For example, while experimenting with color VS Code had a prompt for rgb()
                     which I then used to get the exact color I wanted.
                 </p>
@@ -42,8 +42,8 @@
             <li> What did you learn from this assignment? What did you already know?
                 <p>
                     Pretty much everything from this assignment was new to me so I learned how to use HTML, structure
-                    an html file, how to use some CSS styles, and picked up some practices like DOCTYPE and css file 
-                    separation. I found it fun to experiment and search how to make something look the way I want. 
+                    an html file, how to use some CSS styles, and picked up some practices like DOCTYPE and css file
+                    separation. I found it fun to experiment and search how to make something look the way I want.
                     I also challenged myself to make the header of my homepage resemble my resume which I think turned
                     out well except for the exact layout.
                 </p>
@@ -54,8 +54,8 @@
                 <p>
                     The most helpful resources for me was the lectures as I learned the basics from them, mainly using
                     them by referencing the notes I took. I also downloaded the Live Server extension reccomended by a
-                    student in the Campuswire forum which was nice for auto-updating the page to reflect saved changes 
-                    to files. I also got some tips from a classmate that has prior HTML/CSS experience who reccomended 
+                    student in the Campuswire forum which was nice for auto-updating the page to reflect saved changes
+                    to files. I also got some tips from a classmate that has prior HTML/CSS experience who reccomended
                     the inspector tool.
                 </p>
 
@@ -92,7 +92,7 @@
             <li> What resources (e.g. specific web articles, the class Campuswire forum, the TAs) were most helpful in
                  completing this assignment? How did you use these resources?
                 <p>
-                    The most helpful resources for me was the lectures as I learned some of the tricks I ended up using 
+                    The most helpful resources for me was the lectures as I learned some of the tricks I ended up using
                     for this assignment such as the inline display for the list items in the navigation bar. I also
                     really liked the frog flexbox which was nice for practice. A student also hinted about using border
                     styling to get the underline effect for the active navigation page which led me to find border-bottom.
@@ -118,7 +118,7 @@
         </ul>
     </div>
 
-    
+
     <div class="blog-entry">
         <h2>Assignment 3: 5/9/2022</h2>
 
@@ -136,7 +136,7 @@
 
             <li> What did you learn from the assignment? Were there any special insights you had? What did you find that you already knew?
                 <p>
-                    I learned the basics of javascript, how to create event listeners, how to manipulate the DOM, and 
+                    I learned the basics of javascript, how to create event listeners, how to manipulate the DOM, and
                     add new content to the DOM. Some insights I had into this was that I first learned some Python in CS160-161
                     so I was familiar with how a lot of the string and array operations worked. Fortunately, a lot
                     of javascript syntax is similar to Python and C++ so it was not hard to pickup/use and the lectures were
@@ -150,7 +150,7 @@
                     The most helpful resources for me was the lectures, particularly the ones from 4/27, 5/2, and 5/4.
                     I also searched for specific problems / things I wanted to do with JS whenever I had no clue what
                     to do. I also reached out to my teammates (for the final project) and they had a lot of good tips
-                    for the assignment like having to index [0] after getting elements by class name. I also took some 
+                    for the assignment like having to index [0] after getting elements by class name. I also took some
                     of the example/demo code from class such as the string cleaning from the wordBoxes.js.
                 </p>
             </li>
@@ -158,19 +158,19 @@
             <li> What are one or two things you had to Google to complete the assignment?
                 <p>
                     Two things I had to Google was how to do the search and how to clear an input field.
-                    I learned I could use the string method indexOf() for searching since it gives the starting index 
+                    I learned I could use the string method indexOf() for searching since it gives the starting index
                     for a substring that is in the current string. For clearing the input field, my issue was that
                     I was getting the value from the element and then trying to set it to an empty string "" but I was
                     not actually changing the value text element.
                     <br/>
                     <br/>
                     // Does not work  <br/>
-                    text = element.value <br/>       
+                    text = element.value <br/>
                     text = ""  <br/>
                     // Does work <br/>
                     element.value = "" <br/>
                     // This works too <br/>
-                    text = element
+                    text = element  <br/>
                     text.value = ""
                 </p>
 
@@ -183,7 +183,104 @@
 
             </li>
         </ul>
+
+		<div class="blog-entry">
+			<h2>Assignment 4: 5/16/2022</h2>
+
+			<ul>
+				<li> What was challenging about the assignment, and what specific kinds of problems did you have. How did you solve those problems?
+					<p>
+						For this assignment, I tried to use readFile() but ran into problems with variables being undefined due to the
+						asynchronous aspect. I went around the problem by using readFileSync() instead. Another issue I ran into was a set_header error
+						which I solved by looking up the error and learned that my if statement block structure was causing multiple responses to be made.
+					</p>
+				</li>
+
+				<li> What did you learn from the assignment? Were there any special insights you had? What did you find that you already knew?
+					<p>
+						I learned from this assignment how a server and client interact and how I can facilitate that interaction with node.js
+						and node modules. I also learned how to serve pages based off request information like the url.
+					</p>
+				</li>
+
+				<li> What resources (e.g. specific web articles, the class Campuswire forum, the TAs) were most helpful in
+					 completing this assignment? How did you use these resources?
+					<p>
+						The most helpful resources for me was the lectures and just experimenting with example code
+                        from the lectures. For the assignment I would just try going to different pages and see what
+                        each request looked liked which helped me understand the interaction.
+					</p>
+				</li>
+
+				<li> What are one or two things you had to Google to complete the assignment?
+					<p>
+						One thing I had to google was how to read files in since I got confused by the asynchronous read
+                        file.
+					</p>
+
+					<p> Web articles referenced: <br/>
+						https://stackoverflow.com/questions/18494226/storing-nodejs-fs-readfiles-result-in-a-variable-and-pass-to-global-variable <br/>
+					</p>
+
+				</li>
+			</ul>
+
     </div>
+
+	<div class="blog-entry">
+		<h2>Assignment 4: 5/16/2022</h2>
+
+		<ul>
+			<li> What was challenging about the assignment, and what specific kinds of problems did you have. How did you solve those problems?
+				<p>
+					I did not find anything particularly challenging about this assignments as I felt fairly comfortable
+					with the given program requirements and lecture content. Some problems I ran into was trying to
+					render the twitData using the for each loop in handlebars as nothing would appear. After going through
+					campuswire hw5 discussion, I found a nice explanation from one of the TAs (Emmanuel) and learned
+					that the {{each}} was expecting an object with a mapped array instead of an array to iterate over.
+				</p>
+				<p>
+					Another problem I ran into was figuring out how to include the partial I had for the create twit
+					button and modal. After some googling I found that I needed a ">" to fit with the syntax.
+				</p>
+			</li>
+
+			<li> What did you learn from the assignment? Were there any special insights you had? What did you find that you already knew?
+				<p>
+					I learned from this assignment how to templatize html pages, how to create partials for the client
+					side, and serve them with Express and Handlebars.  I also learned how to leverage package.json to
+					create pre-build scripts to compile handlebar files and use nodemon to avoid manually refreshing
+					my server each time I save. I also got more comfortable using express and middleware functions. I
+					feel like I have a better grasp on how they work / flow.
+				</p>
+			</li>
+
+			<li> What resources (e.g. specific web articles, the class Campuswire forum, the TAs) were most helpful in
+				 completing this assignment? How did you use these resources?
+				<p>
+					The most helpful resources for me was the lectures, campuswire forum, and examining the
+					example/worked out lecture code. I used lectures by watching along and implementing certain parts
+					as I went through the assignment while also referencing my notes. The forum was helpful when I came
+					across an issue I would look through the corresponding forum and see if another student faced a
+					similar problem to mine and how they were able to resolve it.
+				</p>
+			</li>
+
+			<li> What are one or two things you had to Google to complete the assignment?
+				<p>
+					One thing I had to google was how to add/render a partial handlebars file in another handlebar,
+					since I could not figure out how to add the createTwit.handlebars partial to twitsPage.handlebars.<br/>
+					I learned that I just needed ">" to fit the partial call syntax.
+				</p>
+
+				<p> Web articles referenced: <br/>
+					https://handlebarsjs.com/guide/partials.html<br/>
+				</p>
+
+			</li>
+		</ul>
+
+	</div>
 
 </body>
 </html>
