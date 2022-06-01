@@ -1,6 +1,7 @@
 
 body {
-    margin: 0px;
+	font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .tab {
@@ -8,8 +9,9 @@ body {
 }
 
 h1 {
-    margin-top: 10px;
+	margin-top: 0px;
     margin-bottom: 10px;
+	padding-top: 10px;
     font-family: 'Calibri Light';
     font-size: 40px;
 }
@@ -20,21 +22,40 @@ h2 {
 
 
 #blog-header-div {
-    padding: 5px;
+	padding-left: 20px;
+	padding-bottom: 2px;
     background-color: rgb(247, 247, 247);
 }
 
-.link-banner-div {
-    margin-top: 10px;
-    padding: 1px;
-    background-color: rgb(247, 247, 247);
+nav.navbar{
+	margin: 10px 0 0 0px;
+	background-color: rgb(247, 247, 247);
+	font-size: 18px;
+	line-height: 40px;
 }
 
+.navlist {
+	margin: 0 0 0 20px;
+	padding: 0;
+	padding-left: 0px;
+	display: inline-block;
+}
 
+.navitem{
+	display: inline-block;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(81, 81, 81);
+}
 
 .blog-entry {
     margin: 20px;
-    margin-right: 450px;
+
+	/* Make text width a little more compatible with screens using % viewport width */
+    width: 80vw;
 }
 
 .navbar {
